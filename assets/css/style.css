@@ -1846,7 +1846,7 @@ header .right_cnt ul li span:hover {
 }
 
 #story .story_video {
-    background-image: url(../images/banner4.jpg);
+    background-image: url(../images/blog/blog-s-3-2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2099,7 +2099,6 @@ header .right_cnt ul li span:hover {
 }
 
 #cumtomer .customercnt {
-    background-image: url(../images/customerimage.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -2110,7 +2109,11 @@ header .right_cnt ul li span:hover {
     display: block;
     margin: 0 auto;
 }
-
+#cumtomer .customercnt .customerslider .customertext img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 #cumtomer .customercnt .customerslider .customertext {
     text-align: center;
     display: grid;
